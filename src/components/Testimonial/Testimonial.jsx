@@ -4,14 +4,14 @@ const Testimonial = () => {
   // State to manage drawer visibility
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-[#111111] text-white mt-10">
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          <h2 className="text-center text-4xl font-bold tracking-tight  sm:text-5xl">
             Read trusted reviews from our customers
           </h2>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8 mt-20">
+            <blockquote className="rounded-lg bg-black-50 p-6 border-[#6F60F2] shadow-sm sm:p-8 rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -20,7 +20,7 @@ const Testimonial = () => {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-500 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="size-5"
@@ -73,18 +73,17 @@ const Testimonial = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+                  <p className="mt-0.5 text-lg font-medium text-white-900">Paul Starr</p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-white-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
                 consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
                 error officiis atque voluptates magnam!
               </p>
             </blockquote>
-
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg bg-black-50 p-6 border-[#6F60F2] shadow-sm sm:p-8 rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -93,7 +92,7 @@ const Testimonial = () => {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-500 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="size-5"
@@ -146,18 +145,17 @@ const Testimonial = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+                  <p className="mt-0.5 text-lg font-medium text-white-900">Paul Starr</p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-white-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
                 consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
                 error officiis atque voluptates magnam!
               </p>
             </blockquote>
-
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg bg-black-50 p-6 border-[#6F60F2] shadow-sm sm:p-8 rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -166,7 +164,7 @@ const Testimonial = () => {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-500 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="size-5"
@@ -219,16 +217,17 @@ const Testimonial = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+                  <p className="mt-0.5 text-lg font-medium text-white-900">Paul Starr</p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-white-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
                 consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
                 error officiis atque voluptates magnam!
               </p>
             </blockquote>
+
           </div>
         </div>
       </section>

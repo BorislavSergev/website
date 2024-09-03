@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import Error404 from './components/404/404';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
+import './App.css'
 const App = () => {
   return (
     <BrowserRouter>

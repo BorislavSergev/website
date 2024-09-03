@@ -4,7 +4,7 @@ const Features = () => {
     return (
 
         <>
-            <section className="bg-gray-900 text-white">
+            <section className="bg-[#111111] text-white">
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                     <div className="mx-auto max-w-lg text-center">
                         <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
@@ -17,12 +17,12 @@ const Features = () => {
 
                     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <a
-                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10"
                             href="#"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="size-10 text-pink-500"
+                                className="size-10 text-[#6F60F2]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -48,12 +48,12 @@ const Features = () => {
                         </a>
 
                         <a
-                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10"
                             href="#"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="size-10 text-pink-500"
+                                className="size-10 text-[#6F60F2]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -79,12 +79,12 @@ const Features = () => {
                         </a>
 
                         <a
-                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10"
                             href="#"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="size-10 text-pink-500"
+                                className="size-10 text-[#6F60F2]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -110,12 +110,12 @@ const Features = () => {
                         </a>
 
                         <a
-                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10"
                             href="#"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="size-10 text-pink-500"
+                                className="size-10 text-[#6F60F2]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -141,12 +141,12 @@ const Features = () => {
                         </a>
 
                         <a
-                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10"
                             href="#"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="size-10 text-pink-500"
+                                className="size-10 text-[#6F60F2]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -172,12 +172,12 @@ const Features = () => {
                         </a>
 
                         <a
-                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-[#6F60F2]/10 hover:shadow-[#6F60F2]/10"
                             href="#"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="size-10 text-pink-500"
+                                className="size-10 text-[#6F60F2]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -206,7 +206,7 @@ const Features = () => {
                     <div className="mt-12 text-center">
                         <a
                             href="#"
-                            className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                            className="inline-block rounded bg-[#6F60F2] px-12 py-3 text-sm font-medium text-white transition hover:bg-white hover:text-[#6F60F2] focus:outline-none focus:ring focus:ring-yellow-400"
                         >
                             Get Started Today
                         </a>
