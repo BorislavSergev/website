@@ -3,7 +3,7 @@ import React from 'react'
 const error404 = () => {
     return (
         <>
-            <div className="grid h-screen place-content-center bg-white px-4 dark:bg-gray-900">
+            <div className="grid h-screen place-content-center bg-[#111111] px-4">
                 <div className="text-center">
                     <h1 className="text-9xl font-black text-gray-200 dark:text-gray-700">404</h1>
 
@@ -14,7 +14,7 @@ const error404 = () => {
                     <p className="mt-4 text-gray-500 dark:text-gray-400">We can't find that page.</p>
 
                     <a
-                        href="#"
+                        href="/"
                         className="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
                     >
                         Go Back Home

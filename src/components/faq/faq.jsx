@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const FAQ = () => {
-  // Sample FAQ data
   const faqs = [
     {
       question: "Lorem ipsum dolor sit amet consectetur adipisicing?",
@@ -15,7 +14,6 @@ const FAQ = () => {
       question: "Yet another question?",
       answer: "Here is the answer to the third question. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ex obcaecati numquam, minus alias qui quia ipsa incidunt magni corporis doloribus, delectus non suscipit eum sint magnam commodi sit."
     },
-    // Add more questions and answers as needed
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
@@ -25,7 +23,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="space-y-10 mx-40 bg-[#111111] mt-20">
+    <div className="space-y-10 mx-4 sm:mx-10 lg:mx-40 bg-[#111111] mt-20">
       <div className="mx-auto max-w-lg text-center text-white">
         <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
         <p className="mt-4 text-gray-300">
@@ -34,12 +32,12 @@ const FAQ = () => {
         </p>
       </div>
       {faqs.map((faq, index) => (
-        <div key={index} className="faq-item border-l-4 border-[#6F60F2] bg-[#111111] p-6">
+        <div key={index} className="faq-item border-l-4 border-[#6F60F2] bg-[#111111] p-6 rounded-lg">
           <div 
             className="flex items-center justify-between cursor-pointer"
             onClick={() => toggleOpen(index)}
           >
-            <h2 className="text-lg font-medium text-gray-900 dark:text-white">
+            <h2 className="text-lg font-medium text-gray-300">
               {faq.question}
             </h2>
             <span className={`transform transition-transform duration-300 ${openIndex === index ? 'rotate-45' : ''}`}>
@@ -58,8 +56,8 @@ const FAQ = () => {
               </svg>
             </span>
           </div>
-          <div className={`transition-all duration-300 overflow-hidden ${openIndex === index ? 'max-h-screen opacity-200' : 'max-h-0 opacity-0'}`}>
-            <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
+          <div className={`transition-all duration-300 overflow-hidden ${openIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}>
+            <p className="mt-4 leading-relaxed text-gray-400">
               {faq.answer}
             </p>
           </div>
